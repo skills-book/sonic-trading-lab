@@ -7,7 +7,7 @@ description: Install and start sonic-trading-lab locally using its npm launcher,
 
 Check Node.js 22+ and npm, OS and architecture. The initial npm beta supports Apple Silicon macOS only; do not claim Windows, Intel Mac or Linux support through this launcher.
 
-Use `npx sonic-trading-lab` from the official npm package linked at https://github.com/Airveek/sonic-trading-lab. Confirm the user wants local installation before running it. For a maintainer-provided local tarball, use `npm exec --package=/absolute/path/to/package.tgz -- sonic-trading-lab`. Never invent a release URL or install an unrelated namesake.
+Use `npx sonic-trading-lab` from the official npm package linked at https://github.com/skills-book/sonic-trading-lab. Confirm the user wants local installation before running it. For a maintainer-provided local tarball, use `npm exec --package=/absolute/path/to/package.tgz -- sonic-trading-lab`. Never invent a release URL or install an unrelated namesake.
 
 The launcher checks updates on startup, verifies the archive SHA-256 and preserves the existing application-data directory. An already running app is reopened without replacing its engine. Quit using the dashboard's Quit app, then relaunch to update. Download failure retains the last working release. Never delete saved data to fix installation, disable Gatekeeper, or terminate an unrelated service on port 8091.
 

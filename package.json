@@ -20,10 +20,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Airveek/sonic-trading-lab.git"
+    "url": "git+https://github.com/skills-book/sonic-trading-lab.git"
   },
-  "homepage": "https://github.com/Airveek/sonic-trading-lab",
+  "homepage": "https://github.com/skills-book/sonic-trading-lab",
   "bugs": {
-    "url": "https://github.com/Airveek/sonic-trading-lab/issues"
+    "url": "https://github.com/skills-book/sonic-trading-lab/issues"
   }
 }
