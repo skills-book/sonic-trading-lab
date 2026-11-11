@@ -1,0 +1,29 @@
+{
+  "name": "sonic-trading-lab",
+  "version": "0.1.0-beta.1",
+  "description": "Local sonic-trading-lab launcher with verified startup updates",
+  "type": "module",
+  "bin": {
+    "sonic-trading-lab": "cli.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "files": [
+    "cli.mjs",
+    "release.json",
+    "skills",
+    "README.md"
+  ],
+  "scripts": {
+    "prepublishOnly": "node cli.mjs --check-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Airveek/sonic-trading-lab.git"
+  },
+  "homepage": "https://github.com/Airveek/sonic-trading-lab",
+  "bugs": {
+    "url": "https://github.com/Airveek/sonic-trading-lab/issues"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "version": "0.1.0-beta.1",
+  "platforms": {
+    "darwin-arm64": {
+      "url": "https://github.com/Airveek/sonic-trading-lab/releases/download/v0.1.0-beta.1/sonic-trading-lab-0.1.0-beta.1-macos-arm64-unsigned.zip",
+      "sha256": "e730938a3f695b3653414ba8bad2ab6b419337af4bf48c17d7d7373ba886ba57"
+    }
+  }
+}

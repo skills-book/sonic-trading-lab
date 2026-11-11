@@ -1,0 +1,4 @@
+interface:
+  display_name: "sonic-trading-lab setup"
+  short_description: "Install and start the local trading research app"
+  default_prompt: "Use $sonic-trading-lab-setup to install and start sonic-trading-lab."
